@@ -45,7 +45,7 @@ if (isset($_POST['submit'])) {
         <table width="25%" border="0">
             <tr>
                 <td>Nama</td>
-                <td><input type="text" name="nama" placeholder="masukkan kategori" value=<?php echo $nama; ?>></td>
+                <td><input type="text" name="nama" placeholder="masukkan kategori" value=<?php echo $id_penerima; ?>></td>
             </tr>
             <tr>
                 <td>Tanggal Menerima</td>
