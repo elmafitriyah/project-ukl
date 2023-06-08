@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    position: static;
+}
+.top-menu ul li{
+    display: inline-block;
+    margin: 0 41px;
+    position: relative;
+    color: #ffff;
+    font-family: 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.top-menu ul li.active:before{
+    content:'';
+    position: absolute;
+    width: 108px;
+    height: 0px;
+    left: -13px;
+    top: 38px;
+    border: 2px solid #F2D788;
+    transform: translateY(-50%);
+}
+.top-menu{
+    position: absolute;
+    width: 496px;
+    height: 42px;
+    left: 736px;
+    top: 25px;
+}
+.top-menu ul li a{
+    position:static;
+    color: #ffff;
+    font-family: 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.atas{
+    position:static;
+    top: 0px;
+    bottom: 1000px;
+}
+
+.logo{
+    margin: 0;
+    width: auto;
+}
+.ctt{
+    position: absolute;
+    width: 1280px;
+    height: 935px;
+    left: 0px;
+    top: 352px;
+
+    background: #EAEAEA;
+}
+.pengertian h3{
+    position: static;
+    width: 278px;
+    height: 52px;
+    left: 56px;
+    margin-top: 25px;
+    margin-left: 40px;
+
+    font-family: 'futura md bt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+
+    color: #20533A;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pengertian p{
+    position: static;
+    width: 743px;
+    height: 280px;
+    left: 56px;
+    margin-top: 15px;
+    margin-left: 40px;
+
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #000000
+}
+.foto1{
+    position: relative;
+    width: 412px;
+    height: 255px;
+    left: 825px;
+    top: -347px;
+
+    background: url(image.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 52px;
+}
+.jenis h3{
+    position: static;
+    width: 500px;
+    height: 52px;
+    margin-left: 723px;
+    margin-top: -301px;
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: right;
+    color: #20533A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.jenis p {
+    position: static;
+    width: 743px;
+    height: 184px;
+    margin-left: 526px;
+    margin-top: 13px;
+    
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    
+    color: #000000;
+}
+.foto2{
+    position: static;
+    width: 380.9px;
+    height: 255px;
+    margin-left: 40px;
+    margin-top:-281px;
+    
+    background: url(image.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 52px;
+}
+.kriteria h3{
+    position: static;
+    width: 202px;
+    height: 52px;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    
+    color: #20533A;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.kriteria p{
+    position: static;
+    width: 632px;
+    height: 114px;
+    margin-left: 40px;
+    margin-top: 30px;
+    
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    
+    color: #000000;
+}
+.foto3{
+    position: static;
+    width: 412px;
+    height: 255px;
+    margin-left: 825px;
+    margin-top: -173px;
+    
+    background: url(image.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 52px;
+}
+.footer{
+    position: relative;
+    margin-top:100px;
+}
+.kontak{
+    position: absolute;
+    width: 150px;
+    height: 33px;
+    left: 110px;
+    top: 10px;
+
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+.alamat{
+    position: absolute;
+    width: 300px;
+    height: 33px;
+    left: 505px;
+    top: 10px;
+
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+.sosmed{
+    display: inline-block;
+    position: absolute;
+    width: 229px;
+    height: 33px;
+    left: 999px;
+    top: 10px;
+
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+h5{
+    font-size: 15px;
+}

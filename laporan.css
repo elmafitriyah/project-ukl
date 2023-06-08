@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    background-color: #09482A;
+    height: 82px;
+}
+th{
+    background-color: white;
+    color: #313131;
+    font-family: 'inter';
+    width: auto;
+}
+tr{
+    text-align: center;
+}
+td{
+    height: 29px;
+}
+.nav{
+    position: static;
+    width: auto;
+    height: 71px;
+    left:0px;
+    top: 80px;
+
+    background: #047B42;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+
+    display: flex;
+}
+.bn{
+    position: static;
+    width: auto;
+    height: 38px;
+    margin-left: 0px;
+    margin-top: 22px;
+
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #F3F3F3;
+    text-decoration: none;
+}
+.nav>a:hover{
+    color: #09482A;
+    transition: all .3s ease-in-out;
+}
+.pn{
+    position: static;
+    width: auto;
+    height: 38px;
+    margin-left: 60px;
+    margin-top: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #F3F3F3;
+    text-decoration: none;
+}
+.lp{
+    position: static;
+    width: auto;
+    height: 38px;
+    margin-right: 40px;
+    margin-top: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #F3F3F3;
+    text-decoration: none;   
+}
+.nav:before{
+    content:'';
+    position: absolute;
+    width: 136px;
+    height: 0px;
+    left: 1105px;
+    margin-top: 52px;
+    border: 2px solid #F2D788;
+    transform: translateY(-50%);
+    right: 250px;
+}
+.add{
+    background-color: #09482A;
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 210px;
+    margin-left: 120px;
+    top:600px;
+    position: static;
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: 'inter';
+}
+.tabel{
+    position: static;
+    width: 961px;
+    height: 412.06px;
+    margin-left: 300px;
+    top: 600px;
+}
+.edit{
+    background-color:#fec71f ;
+    width:10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-family: 'inter';
+    font-weight: 100px;
+}
+.delete{
+    background-color:#ff0d0d ;
+    width:10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-family: 'inter';
+    font-weight: 100px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}

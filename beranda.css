@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    position: static;
+}
+.top-menu ul li{
+    display: inline-block;
+    margin: 0 41px;
+    position: relative;
+}
+.top-menu ul li.active:before{
+    content:'';
+    position: absolute;
+    width: 108px;
+    height: 0px;
+    left: -13px;
+    top: 38px;
+    border: 2px solid #F2D788;
+    transform: translateY(-50%);
+}
+.top-menu ul li a{
+    position:static;
+    color: #ffff;
+    font-family: 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.top-menu{
+    position: absolute;
+    width: 496px;
+    height: 42px;
+    left: 736px;
+    top: 25px;
+}
+.desa2{
+    position: static;
+    width: 1270px;
+    height: 752px;
+    left: 0px;
+
+    background: url(image.png);
+    mix-blend-mode: normal;
+}
+h2{
+    position: absolute;
+    width: 835px;
+    height: 112px;
+    left: 298px;
+    top: 338px;
+
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h3{
+    position: absolute;
+    width: 355px;
+    height: 49px;
+    left: 509px;
+    top: 431px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #09482A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer{
+    position: relative;
+    margin-top:100px;
+}
+.kontak{
+    position: absolute;
+    width: 150px;
+    height: 33px;
+    left: 110px;
+    top: -87px;
+
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+.alamat{
+    position: absolute;
+    width: 300px;
+    height: 33px;
+    left: 505px;
+    top: -87px;
+
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+.sosmed{
+    display: inline-block;
+    position: absolute;
+    width: 229px;
+    height: 33px;
+    left: 999px;
+    top: -87px;
+
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+h5{
+    font-size: 15px;
+}
+.pendaftar{
+    display: inline;
+    justify-content: center;
+}
+.adm{
+    position: absolute;
+    width: 298.8px;
+    height: 60px;
+    left: 310px;
+    top: 479px;
+}
+
+
+.user{
+    position: absolute;
+    width: 315px;
+    height: 60px;
+    left: 670px;
+    top: 479px;
+}
